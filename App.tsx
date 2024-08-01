@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native';
 import { Caja3 } from './screen/Caja3';
 import { Caja4 } from './screen/Caja4';
 import { Numeros } from './screen/numeros';
+import { Caja5 } from './screen/Caja5';
 
 export const App = () => {
   return (
@@ -13,7 +14,8 @@ export const App = () => {
     {/*<CajasModelo1/>*/}
     {/*<Caja2/>*/}
     {/*<Caja3/>*/}
-    <Caja4/>
+    {/*<Caja4/>*/}
+    <Caja5/>
     </SafeAreaView>
   )
 }
